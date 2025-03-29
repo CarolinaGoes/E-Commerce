@@ -5,7 +5,9 @@ html{
 
 header{
     display: flex;
+    position: absolute;
     height: 20dvh;
     width: 100%;
+    left: 50%;
     
 }
