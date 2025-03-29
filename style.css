@@ -1,0 +1,12 @@
+html{
+    background-color: rgb(135, 189, 236);
+    
+}
+
+header{
+    display: flex;
+    height: 20dvh;
+    width: 100%;
+   
+    
+}
