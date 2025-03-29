@@ -7,7 +7,6 @@ header{
     display: flex;
     height: 20dvh;
     width: 50%;
-    justify-content: center;
-   
+align-items: center;   
     
 }
