@@ -6,7 +6,6 @@ html{
 header{
     display: flex;
     height: 20dvh;
-    width: 50%;
-align-items: center;   
+    width: 100%;
     
 }
