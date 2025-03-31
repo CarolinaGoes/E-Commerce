@@ -11,23 +11,15 @@ grid-template-columns: 5fr 10fr 1fr 1fr;
 }
 
 nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: max-content;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;  
+    flex-direction: column;
+    position: fixed;
+    visibility: hidden; alterar
 }
 
 .compras{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: max-content;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
