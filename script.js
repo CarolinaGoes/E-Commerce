@@ -1,2 +1,3 @@
-let div = document.querySelectorAll("sectio");
-div.classList.toggle("iten")
+let header = document.querySelector("body");
+document.createElement("header");
+document.body.appendChild(header);
