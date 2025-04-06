@@ -19,7 +19,7 @@
       .card img {
         object-fit: cover;
         height: 200px;
-        width: 100% ;
+        width: 100%;
       }
 
       footer {
@@ -34,15 +34,25 @@
   <body class="bg-dark text-light">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
-      <div class="container">
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- Marca -->
         <a class="navbar-brand" href="#">TRIVCalçados</a>
-        <a href="">Login</a>
-        <img src="/images/shopping-cart_7628172.png" alt="carrinho" width="30" >
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- Login e Carrinho -->
+        <div class="d-flex align-items-center order-lg-2">
+          <a href="#" class="text-light me-3 text-decoration-none">Login</a>
+          <button type="button" class="btn btn-outline-light me-2">
+            <img src="/images/shopping-cart_7628172.png" alt="Carrinho" style="width: 24px;">
+          </button>
+
+          <!-- Botão hamburguer agora está aqui -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <!-- Menu colapsável -->
+        <div class="collapse navbar-collapse order-lg-1" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
@@ -57,7 +67,7 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
+          <form class="d-flex me-lg-3" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar...">
             <button class="btn btn-outline-light" type="submit">Buscar</button>
           </form>
@@ -69,19 +79,18 @@
       <div class="text-center">
         <h1>Encontre seu estilo com a TRIVCalçados</h1>
         <p class="lead">As melhores ofertas de calçados direto para você</p>
-        <a href="#" class="btn btn-primary mt-3">Confira agora</a>
+        <a href="#" class="btn btn-primary mt-3 ">Confira agora</a>
       </div>
     </section>
 
-    <div class="container ">
-      <h2 class="text-center mb-4">Produtos em destaque</h2>
+    <div class="container">
+      <h2 class="text-center mb-4 mt-0">Produtos em destaque</h2>
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card bg-light text-dark">
             <img src="/images/SALTO BRANCO.jpg" class="card-img-top" alt="salto branco">
             <div class="card-body">
               <h5 class="card-title">Salto Branco </h5>
-             
               <p class="card-text">Conforto e estilo para o seu dia a dia.</p>
               <p class="fw-bold">R$ 99,90</p>
               <a href="#" class="btn btn-success">Comprar</a>
