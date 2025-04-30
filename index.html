@@ -94,7 +94,7 @@
 
     <footer class="bg-dark text-center text-light py-4 mt-auto">
       <div class="container">
-        <p class="mb-0">&copy; 2025 TRIVCalçados. Todos os direitos reservados.</p>
+        <p class="mb-0"></p>
       </div>
     </footer>
 
@@ -143,6 +143,10 @@
           modalImage.alt = img.alt;
         });
       });
+
+      const Data = new Date().getFullYear();
+      document.querySelector('footer p').innerHTML = `&copy; ${Data} TRIVCalçados. Todos os direitos reservados.`;
+    
     </script>
   </body>
 </html>
